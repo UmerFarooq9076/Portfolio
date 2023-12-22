@@ -3,12 +3,11 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "NODE_OPTIONS=--openssl-legacy-provider && ng serve",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider && ng build",
-    "test": "ng test",
+    "start": "ng serve",
+    "deploy": "ng build --prod --base-href /Portfolio/ && npx angular-cli-ghpages --branch=gh-pages --dir=dist/my-portfolio --cname=UmerFarooq9076.github.io --name='UmerFarooq9076' --email='hafizumar9076@gmail.com' --no-silent --dir=dist/my-portfolio --repo=https://UmerFarooq9076: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@github.com/UmerFarooq9076/Portfolio.git",
     "lint": "ng lint",
     "e2e": "ng e2e"
-    },
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~11.0.1",
@@ -26,6 +25,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@ngx-translate/core": "^11.0.1",
     "@types/aos": "^3.0.3",
+    "bootstrap": "^5.3.2",
     "aos": "^2.3.4",
     "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",

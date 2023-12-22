@@ -24,4 +24,5 @@ export class HomeComponent implements OnInit {
     var typed = new Typed('.typed', options);
     typed.reset(true)
   }
+  
 }
