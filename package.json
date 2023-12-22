@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "deploy": "ng build --prod --base-href /Portfolio/ && npx angular-cli-ghpages --branch=gh-pages --dir=dist/my-portfolio --cname=UmerFarooq9076.github.io --name='UmerFarooq9076' --email='hafizumar9076@gmail.com' --no-silent --dir=dist/my-portfolio --repo=https://UmerFarooq9076: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@github.com/UmerFarooq9076/Portfolio.git",
+    "deploy": "ng build",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
